@@ -146,20 +146,5 @@
         });
       }
     </script>
-    {#
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const overlay = document.getElementById("color-overlay");
-        if (overlay) {
-          overlay.classList.add("transition-start"); // Start transitie meteen
-        }
-
-        // Verwijder overlay na de overgangsduur (stel: 2s)
-        setTimeout(() => {
-          if (overlay) overlay.remove();
-        }, 1000); // Stem deze timing af op je CSS-transition
-      });
-    </script>
-    #}
   </body>
 </html>
